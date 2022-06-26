@@ -9,13 +9,20 @@
   margin-top: 0;
   height: 155vh;
 }
+.sticky-background-venue {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  height: 75vh;
+}
 
 .countdown-font-style {
   font-size: 1em;
   font-weight: 700;
   margin: 0;
   color: #ffffff;
-  background: linear-gradient(to bottom, #ffffff 35%, #c2dae5 100%);
+  background: linear-gradient(to bottom, #ffffff 35%, #edf1f3 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -28,7 +35,7 @@
 }
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .page-header {
@@ -48,7 +55,7 @@
   align-items: center;
   /*Center horizontaly */
   justify-content: center;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 65%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 70%);
 
   /*Center horizontaly ie */
   -ms-flex-pack: center;
@@ -230,7 +237,23 @@
 }
 
 .presentation-title {
-  font-size: 4em;
+  font-size: 6em;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  // background: #fbf8ec;
+  background: -moz-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -webkit-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -ms-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -o-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+presentation-title-sub {
+  font-size: 2.5em;
   font-weight: 700;
   margin: 0;
   color: #ffffff;
@@ -245,17 +268,19 @@
   -webkit-text-fill-color: transparent;
 }
 .presentation-subtitle {
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #ffffff;
 }
 
 .map-box {
-  border: solid 1px #ccc;
+  border: solid 1px #fff;
   display: grid;
   border-radius: 3em;
   justify-content: center;
   align-items: center;
-  padding: 9vh;
+padding: 7.8vh;
+  background: #f7f7f7;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .map-icons {
   width: 5em;
@@ -278,18 +303,21 @@
 }
 
 .scanner-box {
-  border: solid 1px #ccc;
+  border: solid 1px #fff;
   display: grid;
   border-radius: 3em;
   justify-content: center;
   align-items: center;
-  padding: 9vh;
+  padding: 7vh;
+  background: #f7f7f7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .category-absolute {
-//   position: absolute;
+  //   position: absolute;
   text-align: center;
-//   top: 100vh;
-//   margin-top: -60px;
+  //   top: 100vh;
+  //   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
   color: black;
