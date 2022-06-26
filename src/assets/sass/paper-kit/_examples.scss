@@ -1,0 +1,582 @@
+.landing-alert {
+  margin-bottom: 0;
+}
+
+.sticky-background {
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 0;
+  height: 155vh;
+}
+
+.countdown-font-style {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 35%, #c2dae5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.carousel-inner .carousel-item img {
+  border-radius: 0px !important;
+  height: 100% !important;
+}
+.carousal-style {
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.page-header {
+  background-color: #b2afab;
+  background-position: center center;
+  background-size: cover;
+  min-height: 120vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  /* Center vertically */
+  align-items: center;
+  /*Center horizontaly */
+  justify-content: center;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 65%);
+
+  /*Center horizontaly ie */
+  -ms-flex-pack: center;
+
+  .filter::after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &.page-header-small {
+    min-height: 65vh !important;
+    max-height: 700px;
+  }
+  &.page-header-xs {
+    min-height: 40vh !important;
+  }
+
+  &.section-dark {
+    .content-center,
+    .category-absolute {
+      z-index: 1;
+    }
+  }
+}
+.page-header .motto {
+  text-align: left;
+  z-index: 3;
+  color: #fff;
+  position: relative;
+}
+.landing-section {
+  padding: 100px 0;
+  z-index: 1;
+}
+.section-buttons {
+  z-index: 1;
+}
+.landing-section .btn-simple {
+  padding: 0;
+}
+.landing-section .column {
+  padding: 0 75px 0 25px;
+}
+.team-player .img-circle,
+.team-player .img-thumbnail {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form label {
+  margin-top: 15px;
+}
+.contact-form .btn {
+  margin-top: 30px;
+}
+
+.navbar-relative {
+  position: relative;
+  z-index: 2;
+}
+#register-navbar a {
+  color: #fff;
+}
+.register-background .container {
+  margin-top: 11%;
+  position: relative;
+  z-index: 3;
+}
+.register-footer {
+  bottom: 20px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: transparent;
+  color: $white-color;
+  left: 0;
+}
+.register-footer .fa-heart {
+  color: #eb5e28;
+}
+
+.register-card label {
+  margin-top: 15px;
+}
+.register-card .title {
+  color: #b33c12;
+  text-align: center;
+}
+.register-card .btn {
+  margin-top: 30px;
+}
+.register-card .forgot {
+  text-align: center;
+}
+
+.profile-content {
+  position: relative;
+}
+.owner {
+  text-align: center;
+}
+.owner .avatar {
+  padding: 15px;
+  max-width: 180px;
+  margin: -85px auto 0;
+  display: inline-block;
+}
+.owner .name h4 {
+  margin-top: 10px;
+}
+.profile-tabs {
+  margin: 50px 0;
+  min-height: 300px;
+}
+#following h3 {
+  margin: 20px 0 40px 0;
+}
+#follows .follows .unfollow .checkbox {
+  margin-top: -15px;
+}
+#follows .follows h6 {
+  margin-top: 15px;
+}
+.follows hr {
+  margin-top: 10px;
+}
+.alert h5 {
+  // margin-bottom: 10px;
+}
+.title-brand {
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+
+  .type {
+    position: absolute;
+    font-size: 20px;
+    background: #132026;
+    padding: 6px 10px;
+    border-radius: 4px;
+    top: 0;
+    font-weight: 600;
+    margin-top: 10px;
+    right: -15px;
+  }
+}
+
+.second-page-image {
+  background-color: #261a09;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  //   clip-path: polygon(0% 0% 0% 0%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 60%);
+}
+
+.presentation-title {
+  font-size: 4em;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  // background: #fbf8ec;
+  background: -moz-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -webkit-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -ms-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: -o-linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+  background: linear-gradient(to bottom, #ffffff 35%, #4e6773 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.presentation-subtitle {
+  font-size: 1.7em;
+  color: #ffffff;
+}
+
+.map-box {
+  border: solid 1px #ccc;
+  display: grid;
+  border-radius: 3em;
+  justify-content: center;
+  align-items: center;
+  padding: 9vh;
+}
+.map-icons {
+  width: 5em;
+}
+
+@keyframes jump {
+  0% {
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  }
+  40% {
+    transform: translate3d(0, 30%, 0) scale3d(1.1, 1, 1);
+  }
+  100% {
+    transform: translate3d(0, 100%, 0) scale3d(1, 0.6, 1);
+  }
+}
+.jump {
+  transform-origin: 50% 50%;
+  animation: jump 1.5s linear alternate infinite;
+}
+
+.scanner-box {
+  border: solid 1px #ccc;
+  display: grid;
+  border-radius: 3em;
+  justify-content: center;
+  align-items: center;
+  padding: 9vh;
+}
+.category-absolute {
+//   position: absolute;
+  text-align: center;
+//   top: 100vh;
+//   margin-top: -60px;
+  padding: 0 15px;
+  width: 100%;
+  color: black;
+
+  .creative-tim-logo {
+    max-width: 40px;
+    top: -2px;
+    left: 3px;
+    position: relative;
+  }
+}
+
+// ------------------------
+.bshadow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(5px 5px 5px #222222);
+  opacity: 0.5;
+}
+
+textarea {
+  margin-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  opacity: 0.5;
+}
+//   ----------------------
+
+//  -------------------------
+
+.music-running {
+  background: rgb(20, 20, 20);
+  overflow: hidden;
+}
+
+.music-span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-top: 100%;
+  overflow: hidden;
+}
+.music-main-div {
+  margin-top: -17%;
+  height: 34%;
+  width: 2%;
+  top: 30%;
+  border-radius: 20px;
+  position: absolute;
+}
+.music-div:nth-of-type(1) {
+  animation: wave 17s 0s linear infinite;
+}
+.music-div:nth-of-type(2) {
+  animation: wave 17s -16.227s linear infinite;
+}
+.music-div:nth-of-type(3) {
+  animation: wave 17s -15.455s linear infinite;
+}
+.music-div:nth-of-type(4) {
+  animation: wave 17s -14.682s linear infinite;
+}
+.music-div:nth-of-type(5) {
+  animation: wave 17s -13.909s linear infinite;
+}
+.music-div:nth-of-type(6) {
+  animation: wave 17s -13.136s linear infinite;
+}
+.music-div:nth-of-type(7) {
+  animation: wave 17s -12.364s linear infinite;
+}
+.music-div:nth-of-type(8) {
+  animation: wave 17s -11.591s linear infinite;
+}
+.music-div:nth-of-type(9) {
+  animation: wave 17s -10.818s linear infinite;
+}
+.music-div:nth-of-type(10) {
+  animation: wave 17s -10.045s linear infinite;
+}
+.music-div:nth-of-type(11) {
+  animation: wave 17s -9.273s linear infinite;
+}
+.music-div:nth-of-type(12) {
+  animation: wave 17s -8.5s linear infinite;
+}
+.music-div:nth-of-type(13) {
+  animation: wave 17s -7.727s linear infinite;
+}
+.music-div:nth-of-type(14) {
+  animation: wave 17s -6.955s linear infinite;
+}
+.music-div:nth-of-type(15) {
+  animation: wave 17s -6.182s linear infinite;
+}
+.music-div:nth-of-type(16) {
+  animation: wave 17s -5.409s linear infinite;
+}
+.music-div:nth-of-type(17) {
+  animation: wave 17s -4.636s linear infinite;
+}
+.music-div:nth-of-type(18) {
+  animation: wave 17s -3.864s linear infinite;
+}
+.music-div:nth-of-type(19) {
+  animation: wave 17s -3.091s linear infinite;
+}
+.music-div:nth-of-type(20) {
+  animation: wave 17s -2.318s linear infinite;
+}
+.music-div:nth-of-type(21) {
+  animation: wave 17s -1.545s linear infinite;
+}
+.music-div:nth-of-type(22) {
+  animation: wave 17s -0.773s linear infinite;
+}
+
+@keyframes wave {
+  0% {
+    left: -2%;
+    background: #3b44d1;
+  }
+  5% {
+    background: #9337fe;
+  }
+  10% {
+    height: 10%;
+    margin-top: -5%;
+    background: #c532fc;
+  }
+  15% {
+    background: #f639f8;
+  }
+  20% {
+    height: 34%;
+    margin-top: -17%;
+    background: #f236c8;
+  }
+  25% {
+    background: #ff2f8d;
+  }
+  30% {
+    height: 10%;
+    margin-top: -5%;
+    background: #ee3860;
+  }
+  35% {
+    background: #dc5245;
+  }
+  40% {
+    height: 34%;
+    margin-top: -17%;
+    background: #f38643;
+  }
+  45% {
+    background: #f8b435;
+  }
+  50% {
+    height: 10%;
+    margin-top: -5%;
+    background: #faf444;
+  }
+  55% {
+    background: #e0ff3b;
+  }
+  60% {
+    height: 34%;
+    margin-top: -17%;
+    background: #e1ff3c;
+  }
+  65% {
+    background: #46f443;
+  }
+  70% {
+    height: 10%;
+    margin-top: -5%;
+    background: #54e67b;
+  }
+  75% {
+    background: #4df3a9;
+  }
+  80% {
+    height: 34%;
+    margin-top: -17%;
+    background: #3af9da;
+  }
+  85% {
+    background: #36ebf4;
+  }
+  90% {
+    height: 10%;
+    margin-top: -5%;
+    background: #3db3f3;
+  }
+  95% {
+    background: #3c82f1;
+  }
+  100% {
+    height: 34%;
+    margin-top: -17%;
+    left: 100%;
+    background: #5b38ee;
+  }
+}
+
+//  -----------------------------
+
+.fog-low {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: -35%;
+  margin-bottom: -50px;
+  width: 110%;
+  opacity: 0.85;
+
+  img {
+    width: 100%;
+  }
+
+  &.right {
+    margin-left: 30%;
+    opacity: 1;
+  }
+}
+.angular-logo {
+  max-width: 90px;
+  margin: -50px auto 45px;
+
+  img {
+    width: 100%;
+  }
+}
+.page-header {
+  .content-center {
+    //margin-top: 85px;
+  }
+}
+.moving-clouds {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 250.625em;
+  height: 43.75em;
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
+}
+
+@keyframes cloudLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+.following {
+  img {
+    max-width: 70px;
+  }
+}
+
+.ie-background {
+  .page-header {
+    .content-center {
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      -ms-transform: translate(-50%, -75%);
+      .title-brand {
+        .presentation-title {
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .presentation-title {
+    font-size: 4em;
+  }
+}
