@@ -7,7 +7,7 @@
   background-size: cover;
   background-attachment: fixed;
   margin-top: 0;
-  height: 155vh;
+  height: 125vh;
 }
 .sticky-background-venue {
   background-position: center center;
@@ -42,7 +42,7 @@
   background-color: #b2afab;
   background-position: center center;
   background-size: cover;
-  min-height: 120vh;
+  min-height: 100vh;
   max-height: 999px;
   overflow: hidden;
   position: relative;
@@ -55,7 +55,7 @@
   align-items: center;
   /*Center horizontaly */
   justify-content: center;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 70%);
+  // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 70%);
 
   /*Center horizontaly ie */
   -ms-flex-pack: center;
@@ -169,6 +169,12 @@
 .owner {
   text-align: center;
 }
+.container-mobile {
+  @media (max-width: 767px) {
+    position: relative;
+    top: 15vh;
+  }
+}
 .owner .avatar {
   padding: 15px;
   max-width: 180px;
@@ -278,7 +284,7 @@ presentation-title-sub {
   border-radius: 3em;
   justify-content: center;
   align-items: center;
-padding: 7.8vh;
+  padding: 7.8vh;
   background: #f7f7f7;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -310,8 +316,7 @@ padding: 7.8vh;
   align-items: center;
   padding: 7vh;
   background: #f7f7f7;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .category-absolute {
   //   position: absolute;
@@ -607,17 +612,16 @@ textarea {
   .presentation-title {
     font-size: 4em;
   }
-  
-  .sticky-background-venue{
+
+  .sticky-background-venue {
     height: 90vh;
   }
-  .page-header{
-      background-position: 20%;
-      clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 60%);
+  .page-header {
+    background-position: 20%;
+    // clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 60%);
   }
-  .mobile-up-style{
+  .mobile-up-style {
     position: relative;
     bottom: 15em;
   }
-
 }
